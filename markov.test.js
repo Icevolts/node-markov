@@ -1,4 +1,4 @@
-const {MarkovMachine,makeText} = require('./markov')
+const {MarkovMachine} = require('./markov')
 
 let mm = new MarkovMachine('the')
 let words = mm.words
